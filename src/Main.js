@@ -7,7 +7,7 @@ export default function Main (props) {
         <div className="Main flex">
             <div className="GameScreen flex">
                 <h1>TENZIES GAME</h1>
-                <p> Roll until all dice are the same. Click each die to freeze it at its current value between rolls </p>
+                <p> Roll until all dice are the same. Click each die to freeze it at its current value between rolls <span className="hint">choose 4 same dice</span> </p>
                 <div className="pices">
                     <DieJSX />
                 </div>

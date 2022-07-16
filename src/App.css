@@ -70,3 +70,23 @@
     font-size: 18px;
     cursor: pointer;
 }
+
+.Info{
+  border: 1px solid black;
+  width: 578px;
+  margin: auto;
+  height: 50px;
+  padding: 10px;
+  margin-bottom: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.conf{
+  margin: auto;
+}
+
+.hint{
+  color: #FF8C32;
+}
