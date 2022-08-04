@@ -72,12 +72,12 @@
 }
 
 .Info{
-  border: 1px solid black;
+  border: 1px dashed black;
   width: 578px;
   margin: auto;
   height: 50px;
   padding: 10px;
-  margin-bottom: 13px;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,4 +89,19 @@
 
 .hint{
   color: #FF8C32;
+}
+.btn2{
+  cursor: pointer;
+    background: blue;
+    color: white;
+    font-size: 14px;
+    border: none;
+    padding: 3px;
+}
+
+.plyes{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 100%;
+  grid-gap: 29px;
 }
